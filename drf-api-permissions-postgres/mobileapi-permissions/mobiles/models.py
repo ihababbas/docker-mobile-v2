@@ -7,9 +7,9 @@ class Mobile(models.Model):
     main_type=models.CharField(max_length=255)
     model_type=models.CharField(max_length=255)
     description=models.TextField(blank=True)
-    battary_size = models.IntegerField(max_length=255)
+    battary_size = models.IntegerField()
     colors = models.TextField(blank=True)
-    price = models.IntegerField(max_length=255)
+    price = models.IntegerField()
     def __str__(self):
         return self.main_type
     
