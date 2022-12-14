@@ -26,9 +26,9 @@
 #### Installing the requirements
   - pip install -r requirements.txt
 #### Running the server
-  - python manage.py runserver
+  - docker-compose up
 #### Running the tests
-  - python manage.py test
+  - docker-compose run web python manage.py test
 
 
 [PR](https://github.com/ihababbas/docker-mobile-v2/pull/1)
